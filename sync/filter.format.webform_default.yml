@@ -1,0 +1,10 @@
+uuid: 5f7d7376-683a-4738-a940-6af44fc45fba
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oEkOcTltDf_GFU7lBKzy6LUI62opCyY719ApJNb6FqI
+name: 'Webform (Default) - DO NOT EDIT'
+format: webform_default
+weight: 100
+filters: {  }
