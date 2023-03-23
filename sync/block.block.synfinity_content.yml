@@ -1,0 +1,22 @@
+uuid: 8bb3b796-d04c-409d-b25f-9a5e7ea9960b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - synfinity
+_core:
+  default_config_hash: aWUY7NhumGxD62ribYLinU-E1L_wZ6wKxkbSoDzTT6g
+id: synfinity_content
+theme: synfinity
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

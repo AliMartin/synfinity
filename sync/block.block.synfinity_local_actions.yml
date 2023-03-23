@@ -1,0 +1,20 @@
+uuid: 3d15111f-d962-41ac-8e88-6646b32022f8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - synfinity
+_core:
+  default_config_hash: YDhwN_KInydY6uL_ozEtVYRgkcTDSId1S9zcff8YwK4
+id: synfinity_local_actions
+theme: synfinity
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

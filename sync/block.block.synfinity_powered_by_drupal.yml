@@ -1,0 +1,22 @@
+uuid: fe168c4a-be00-4558-9077-22dccdcc1ca9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - synfinity
+_core:
+  default_config_hash: QCgkZFhT2AjuPnx4a7R2j2D_bY5vTxHUvFhfGRgLAEw
+id: synfinity_powered_by_drupal
+theme: synfinity
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
