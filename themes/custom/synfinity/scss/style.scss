@@ -7,3 +7,10 @@
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
+
+@import 'footer';
+@import 'header';
+@import 'links';
+@import 'menu-desktop';
+@import 'menu-mobile';
+@import 'node';
