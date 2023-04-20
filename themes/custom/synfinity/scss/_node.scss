@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Conthrax Sb';
+  src: url('../fonts/ConthraxSb-Regular.woff2') format('woff2'),
+      url('../fonts/ConthraxSb-Regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-image: url('../images/wallpaper-01.jpg');
+  // background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
@@ -7,8 +17,11 @@ body {
 
 .neon {
   animation: flicker 1.5s infinite alternate;
+  font-family: 'Conthrax Sb';
+  font-weight: 600;
+  font-style: normal;
   font-size: 64px;
-  color: #fff;
+  color: #1bddff;
   text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
