@@ -1,0 +1,11 @@
+.navbar-brand a.site-title {
+  font-family: $headings-font-family;
+  font-weight: 200;
+  font-size: 64px;
+  text-transform: lowercase;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}

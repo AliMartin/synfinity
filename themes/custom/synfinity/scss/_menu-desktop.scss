@@ -1,0 +1,13 @@
+#block-synfinity-main-navigation {
+  ul.navbar-nav {
+    li {
+      a {
+        color: $white;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+  }
+}
