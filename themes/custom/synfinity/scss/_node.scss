@@ -34,7 +34,7 @@ nav.tabs {
 				hsl(calc(var(--k)*1turn + 90deg), 95%, 65%)) text;
 	color: transparent;
 	filter: url(#f);
-	animation: k 4s linear infinite
+	animation: k 16s linear infinite
 }
 
 @keyframes k { to { --k: 1 } }

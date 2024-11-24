@@ -13708,7 +13708,7 @@ a > .ck-content code {
   background: linear-gradient(90deg, hsl(calc(var(--k) * 1turn), 95%, 65%), hsl(calc(var(--k) * 1turn + 90deg), 95%, 65%)) text;
   color: transparent;
   filter: url(#f);
-  animation: k 4s linear infinite;
+  animation: k 16s linear infinite;
 }
 @keyframes k {
   to {
